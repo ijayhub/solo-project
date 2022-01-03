@@ -7,3 +7,6 @@ hamburgerBtn.addEventListener('click', function () {
 	// overLay.classList.toggle('open')
 	mobileHeader.classList.toggle('open');
 });
+const scroll = new SmoothScroll('.nav-wrapper[href*="#"]', {
+	speed: 300,
+});

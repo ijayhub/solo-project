@@ -189,7 +189,6 @@
 /* .......................card................... */
 .card-display{
   display:flex;
-  scroll-behavior: smooth;
 }
 .card{
   line-height: 2.0;
@@ -291,7 +290,7 @@
   min-height: 30vh;
   width: 100%;
   overflow: hidden;
-  scroll-behavior: smooth;
+  
 }
 
 .service-text {
@@ -349,8 +348,8 @@
   background-size: cover;
   min-height: 30vh;
   width: 100%;
-  overflow: hidden;
-  scroll-behavior: smooth;
+  
+  
 }
 .contact-form{
   color: rgb(255, 255, 255);
