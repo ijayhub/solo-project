@@ -1,5 +1,4 @@
 const hamburgerBtn = document.querySelector('.toggle-btn');
-
 const mobileHeader = document.querySelector('.mobile-header');
 
 hamburgerBtn.addEventListener('click', function () {
