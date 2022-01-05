@@ -7,11 +7,6 @@
 .body{
   font-family:helvetica,sans-serif;
 }
-.overflow{
-  overflow: hidden;
-}
-
-
 /* mobile-nav */
 .main-nav {
   position: fixed;
@@ -85,8 +80,6 @@
   justify-content: center;
   align-items: center;
   transition: all 0.5s ease-in-out;
-  overflow: hidden;
-  
 }
 
 .mobile-header.open {
@@ -155,7 +148,7 @@
   font-size:1.2rem;
 }
 .parallax-container{
-  background-image: url('/conquer/img/bg-1.jpg');
+  background-image: url('../img/bg-1.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -282,7 +275,7 @@
 }
 /* ..............service............ */
 .parallax-container2 {
-  background-image: url('/conquer/img/bg-2.jpg');
+  background-image: url('../img/bg-2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -342,7 +335,7 @@
 }
 /* ...............section5................ */
 .section-5{
-  background-image: url('/conquer/img/bg-3.jpg');
+  background-image: url('../img/bg-3.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
