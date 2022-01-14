@@ -1,5 +1,5 @@
 const hamburgerBtn = document.querySelector('.toggle-btn');
-const mobileHeader = document.querySelector('.mobile-header');
+const mobileHeader = document.querySelector('.main-header');
 
 hamburgerBtn.addEventListener('click', function () {
 	hamburgerBtn.classList.toggle('open');

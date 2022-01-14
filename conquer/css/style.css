@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Pinyon+Script&display=swap');
 html{
   scroll-behavior: smooth;
+ 
 }
 *{
   padding: 0;
@@ -16,6 +17,7 @@ html{
   top: 20px;
   right: 20px;
   z-index: 10;
+  /* background-color:#000; */
 } 
 
 .toggle-btn {
@@ -25,16 +27,16 @@ html{
   display: flex;
   align-items: center;
   justify-content: center;
-  float: right;
+  
   border-radius: 5px;
   background-color: #222;
-  position: relative;
-  top:60px;
+  /* position: relative; */
+  /* top:60px; */
 }
 .toggle-btn div {
   height: 4px;
   width: 30px;
-  bottom:40;
+  /* bottom:40; */
   background-color: #fff;
   position: relative;
   transition: all 0.3s ease-in-out;
@@ -75,7 +77,7 @@ html{
   transform: rotate(-405deg) translate(20px, -4px);
 }
 
-.mobile-header {
+.main-header {
   position: fixed;
   width: 50px;
   z-index: 10;
@@ -85,18 +87,18 @@ html{
   transition: all 0.5s ease-in-out;
 }
 
-.mobile-header.open {
+.main-header.open {
   width: 350px;
 }
 
-.mobile-header.open ul {
+.main-header.open ul {
   opacity: 1;
   z-index: 10;
   pointer-events: all;
 
 }
 
-.mobile-header ul {
+.main-header ul {
   pointer-events: none;
   z-index: 10;
   opacity: 0;
@@ -104,7 +106,7 @@ html{
 
 }
 
-.mobile-header ul li {
+.main-header ul li {
   margin: 3vh 0;
   list-style-type: none;
   display: flex;
@@ -112,18 +114,19 @@ html{
 
 }
 
-.mobile-header ul li a {
+.main-header ul li a {
   color: #000;
   text-decoration: none;
   font-size: 14px;
   
 }
 .nav-wrapper{
-  background-color: #222;
-  padding:2.3rem;
+  background-color: #383E4C;
+  padding:2.5rem;
   position:fixed;
   top:0;
   width:100%;
+  
  
 }
 .nav-list{
@@ -134,17 +137,20 @@ html{
   width:100%;
   
 }
-.list{
-  border:1px solid #333;
-  padding:0.8rem;
+ .list{
+  border:1px solid #fff !important;
+  padding:0.7rem;
   list-style-type: none;
-  margin:0.5rem;
+  margin:0.7rem !important;
   width:7%;
   text-align:center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
   
-}
+} 
 .nav-link{
   text-decoration: none;
+
 }
 .nav-color{
   color:#fff;
@@ -328,13 +334,14 @@ html{
   background-color: #F2F2F2;
   margin-left: 2rem;
   width:70%;
-  height:70%;
+  height:70%; 
 }
 /* ..............section4............... */
 .card-para__section4{
   line-height: 2.0;
    font-size:14px;
    opacity:0.7;
+   
 }
 /* ...............section5................ */
 .section-5{
@@ -466,6 +473,14 @@ html{
   .toggle-btn{
     display:none;
   }
+  .nav-color {
+    font-size: 16px;
+    
+  }
+  
+  
+  
+
 }
 
 @media screen and (max-width:900px) {
@@ -500,19 +515,69 @@ html{
     height: 100%;
     overflow: hidden;
   }
+  .list {
+    border: 0.2px solid #fff !important;
+    object-fit: contain !important;
+    font-size: 5px !important;
+    margin:2rem 0 !important;
+    overflow: hidden;
+  }
+  .nav-color {
+    font-size: 10px;
+    object-fit: contain;
+  }
+  html {
+    max-width: 100%;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+  }
+  .nav-wrapper {
+    display: none;
 
+  }
+ .parallax-container {
+    position: relative;
+    top:70px;
+
+  } 
+  html {
+    max-width: 100%;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+
+  }
+  .toggle-btn {
+    position: relative;
+    top: 60;
+    right: 20px;
+    z-index: 10;
+
+  }
+
+  .toggle-btn div {
+    margin-top: 5px;
+
+  }
+
+
+
+  
 }
+
 @media screen and (max-width:600px) {
   .nav-wrapper{
     display: none;
     
   }
   .toggle-btn{
-    margin-top:80px;
+    position:relative;
+    top:60; 
+    right:20px;
+    z-index: 10;
 
   }
   .toggle-btn div{
-    margin-top:80px;
+    margin-top:5px;
 
   }
   .nav-list{
@@ -553,9 +618,12 @@ html{
   font-size: 20px;
   
 }
+.cover-para {
+  font-size: 14px;
+}
 .parallax-container {
   padding: 100px;
-  margin-bottom:2rem;
+  margin-bottom:5rem;
   overflow: hidden;
 }
 .form-container {
@@ -576,5 +644,12 @@ html{
   padding:1rem;
   text-align:center;
 }
+html{
+  max-width: 100%;
+  margin:0 0.5rem;
+  
+}
+
+
 
   }
