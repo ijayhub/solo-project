@@ -28,6 +28,6 @@ In building this project i used the following :
 #### The purpose is to help users have an idea of how the website template will look like when downloaded.
 
 ```
-[Live link of the website was built with Github pages](https://ijayhub.github.io/solo-project/)
+Live link of the website was built with Github pages:-https://ijayhub.github.io/solo-project/
 ``` 
 ![This an image](https://123goodmorningquotes.com/wp-content/uploads/2020/05/Thank-You-GIF-1.gif)
